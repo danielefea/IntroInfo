@@ -1,0 +1,120 @@
+body, main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0px;
+    font-family: monospace;
+}
+
+header, footer{
+    width: 100%;
+    color:white;
+    font-size: 20pt;
+    text-align: center;
+    background-color: blue;
+}
+
+header{
+    height: 100px;
+    line-height: 100px;
+    font-size: 30pt;
+}
+
+
+img{
+    width: 500px;
+}
+
+#caricamento {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    animation-name: rotazione;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#caricamento > div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*                     ANIMAZIONI                     */
+@keyframes rotazione {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes avvicinamento1 {
+    0%{ transform: translateY(0); }
+    50%{ transform: translateY(30px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes avvicinamento2 {
+    0%{ transform: translate(0, 0); }
+    50%{ transform: translate(30px, 10px); }
+    100% { transform: translate(0, 0); }
+}
+
+@keyframes avvicinamento3 {
+    0%{ transform: translate(0, 0); }
+    50%{ transform: translate(-30px, -10px); }
+    100% { transform: translate(0, 0); }
+}
+
+@keyframes avvicinamento4 {
+    0%{ transform: translateY(0); }
+    50%{ transform: translateY(-30px); }
+    100% { transform: translate(0, 0); }
+}
+
+/*   DA COMPLETARE   */
+img{
+    filter:contrast(2);
+    cursor: url("..."), auto;
+}
+
+#cerchio1{
+    background-color: blue;
+    margin-left: 10px;
+    animation-name: avvicinamento1;
+}
+
+#cerchio2{
+    background-color: purple;
+    margin-right: 100px;
+    animation-name: avvicinamento2;
+}
+
+
+#cerchio3{
+    background-color: red;
+    margin-left: 100px;
+    animation-name: avvicinamento3;
+}
+
+#cerchio4{
+    background-color: green;
+    margin-right: 10px;
+    animation-name: avvicinamento4;
+}
