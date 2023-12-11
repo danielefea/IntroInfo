@@ -94,30 +94,30 @@ header, footer{
 
 img{
     filter:contrast(2);
-    cursor: url("img/ratatouille/remy.png"), auto;
+    cursor: url(""), auto;
 }
 
 #cerchio1{
-    background-color: blue;
     margin-left: 10px;
     animation-name: avvicinamento1;
+    /* ... */
 }
 
 #cerchio2{
-    background-color: purple;
     margin-right: 100px;
     animation-name: avvicinamento2;
+    /* ... */
 }
 
 
 #cerchio3{
-    background-color: red;
     margin-left: 100px;
     animation-name: avvicinamento3;
+    /* ... */
 }
 
 #cerchio4{
-    background-color: green;
     margin-right: 10px;
     animation-name: avvicinamento4;
+    /* ... */
 }
