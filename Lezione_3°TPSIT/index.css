@@ -14,10 +14,8 @@ body{
 
 header, footer{
     width: 100%;
-    color:white;
     font-size: 20pt;
     text-align: center;
-    background-color: blue;
 }
 
 header{
@@ -89,9 +87,14 @@ img{
 }
 
 /*   DA COMPLETARE   */
+header, footer{
+    color:white;
+    background-color: blue;
+}
+
 img{
     filter:contrast(2);
-    cursor: url("..."), auto;
+    cursor: url("img/ratatouille/remy.png"), auto;
 }
 
 #cerchio1{
