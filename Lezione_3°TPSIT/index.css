@@ -98,26 +98,22 @@ img{
 }
 
 #cerchio1{
-    margin-left: 10px;
     animation-name: avvicinamento1;
     /* ... */
 }
 
 #cerchio2{
-    margin-right: 100px;
     animation-name: avvicinamento2;
     /* ... */
 }
 
 
 #cerchio3{
-    margin-left: 100px;
     animation-name: avvicinamento3;
     /* ... */
 }
 
 #cerchio4{
-    margin-right: 10px;
     animation-name: avvicinamento4;
     /* ... */
 }
